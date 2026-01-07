@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Unnati Kale | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <button id="darkModeToggle" class="dark-toggle">🌙</button>
+
+  <section class="hero" id="hero">
+      <canvas></canvas>
+      <div class="hero-content">
+          <h1>Hi, I’m <span>Unnati Kale</span></h1>
+          <h2 class="typing"></h2>
+          <a href="#projects" class="btn">View Projects</a>
+      </div>
+  </section>
+
+  <section class="about fade-in" id="about">
+      <h2>About Me</h2>
+      <div class="about-content">
+          <img src="unnati .jpg" alt="Profile Picture">
+          <div class="about-text">
+              <p>I'm a creative frontend developer passionate about building sleek, interactive web experiences. I love combining clean design with smooth animations.</p>
+              <div class="skills">
+                  <div class="skill">
+                      <span>HTML</span>
+                      <div class="skill-bar"><div style="width: 95%"></div></div>
+                  </div>
+                  <div class="skill">
+                      <span>CSS</span>
+                      <div class="skill-bar"><div style="width: 90%"></div></div>
+                  </div>
+                  <div class="skill">
+                      <span>JavaScript</span>
+                      <div class="skill-bar"><div style="width: 75%"></div></div>
+                  </div>
+                  <div class="skill">
+                      <span>MySQL</span>
+                      <div class="skill-bar"><div style="width: 30%"></div></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section class="projects fade-in" id="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+          <div class="project-card">
+              <div class="project-card-inner">
+                  <div class="project-card-front">
+                      <img src="assets/images/project1.jpg" alt="Project 1">
+                  </div>
+                  <div class="project-card-back">
+                      <h3>Weather App</h3>
+                      <p>Sleek weather app with live API integration.</p>
+                      <div class="project-links">
+                          <a href="#">Demo</a>
+                          <a href="#">GitHub</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="project-card">
+              <div class="project-card-inner">
+                  <div class="project-card-front">
+                      <img src="assets/images/project2.jpg" alt="Project 2">
+                  </div>
+                  <div class="project-card-back">
+                      <h3>Expense Tracker</h3>
+                      <p>Track your expenses with charts and categories.</p>
+                      <div class="project-links">
+                          <a href="#">Demo</a>
+                          <a href="#">GitHub</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+
+  <section class="contact fade-in" id="contact">
+      <h2>Contact Me</h2>
+      <form action="https://formspree.io/f/meeoykak" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="_replyto" placeholder="Your Email" required>
+          <input type="hidden" name="_subject" value="New Portfolio Contact">
+          <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn">Send Message</button>
+      </form>
+      <div class="social-links">
+          <a href="https://github.com/UnnatiKale" target="_blank">GitHub</a>
+          <a href="https://linkedin.com/in/unnatikale" target="_blank">LinkedIn</a>
+      </div>
+  </section>
+
+  <footer>
+      <p>© 2026 Unnati Kale. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
