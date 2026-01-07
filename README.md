@@ -3,7 +3,7 @@ This is my personal portfolio website. It showcases my projects, skills, and inc
 
 Live Demo
 View the live website here:  
-https://unnatikale.github.io
+https://unnatikale.github.io/Portfolio/
 
 Features
 - Clean, minimal, and responsive design
