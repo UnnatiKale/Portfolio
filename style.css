@@ -42,7 +42,6 @@ body.dark-mode {
     background: #c2c29b;
 }
 
-/* Dark Mode Toggle */
 .dark-toggle {
     position: fixed;
     top: 20px;
@@ -80,7 +79,6 @@ body.dark-mode {
     pointer-events: none;         
 }
 
-/* Hero Content */
 .hero-content {
     position: relative;
     z-index: 10;
@@ -98,7 +96,6 @@ body.dark-mode {
     min-height: 1.5rem;
 }
 
-/* Fade-in Sections */
 .fade-in {
     opacity: 0;
     transform: translateY(20px);
@@ -109,7 +106,6 @@ body.dark-mode {
     transform: translateY(0);
 }
 
-/* About Section */
 .about {
     padding: 80px 10%;
     background: #fff;
@@ -219,7 +215,7 @@ body.dark-mode .project-card-back {
 .project-links a {
     margin-right: 15px;
     text-decoration: none;
-    color: #fff;
+    color: #000000;
     font-weight: 600;
     transition: color 0.3s ease;
 }
@@ -287,3 +283,4 @@ footer {
         font-size: 1.2rem;
     }
 }
+
